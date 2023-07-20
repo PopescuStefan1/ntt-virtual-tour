@@ -54,3 +54,9 @@ button {
   border: 1px solid #ffffffcc;
   padding: 0.8rem;
 }
+
+.elevator-btn:hover, #home-btn:hover{
+    background-color: #ffffff;
+    color: #222222dd;
+    transition: ease 0.3s;
+}
