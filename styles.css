@@ -10,6 +10,26 @@ body {
   display: flex;
 }
 
+#content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floorDisplay {
+  color: white;
+  background-color: rgba(0, 0, 255, 0.4);
+  min-width: 16rem;
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
 #navbar {
   background-color: #222222dd;
   margin-left: auto;
