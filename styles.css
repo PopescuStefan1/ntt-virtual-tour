@@ -55,8 +55,15 @@ button {
   padding: 0.8rem;
 }
 
-.elevator-btn:hover, #home-btn:hover{
-    background-color: #ffffff;
-    color: #222222dd;
-    transition: ease 0.3s;
+.elevator-btn:hover,
+#home-btn:hover {
+  background-color: #ffffff;
+  color: #222222dd;
+  transition: ease 0.3s;
+}
+
+.elevator-btn:active,
+#home-btn:active {
+  transform: scale(0.98);
+  transition: transform 0.1s linear;
 }
