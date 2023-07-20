@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5rem 2.5rem;
+  padding: 2rem 2.5rem;
   gap: 0.5rem;
 }
 
@@ -24,9 +24,11 @@ button {
   text-decoration: none;
   cursor: pointer;
   border: none;
-  min-height: 20px;
+  min-height: 1.2rem;
   width: 5rem;
   background-color: transparent;
+  border-radius: 0.2rem;
+  text-align: center;
 }
 
 #logout {
@@ -39,17 +41,16 @@ button {
 .elevator-btn {
   color: white;
   border: 1px solid #ffffffcc;
-  border-radius: 0.2rem;
   flex-grow: 1;
 }
 
 #acces-card {
-  background: url("./cxp/assets/meniu_button_acces_card.svg") no-repeat center;
   width: 5rem;
-  height: auto;
+  margin: 4rem auto;
 }
 
 #home-btn {
   color: white;
   border: 1px solid #ffffffcc;
+  padding: 0.8rem;
 }
