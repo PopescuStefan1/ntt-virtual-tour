@@ -7,6 +7,8 @@
 body {
   height: 100vh;
   background-image: url("./cxp/assets/floor_bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
 }
 
@@ -66,7 +68,7 @@ button {
 
 #acces-card {
   width: 5rem;
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 
 #home-btn {
